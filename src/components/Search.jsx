@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import axios from 'axios'
+import Navbar from './Navbar'
 
 
 
@@ -44,7 +45,7 @@ const Search = () => {
 
     return (
         <div>
-        
+            <Navbar/>
             <h3 align="center"><b>Enter the patient name</b></h3>
             <div className="container">
                 <div className="row g-3">
